@@ -4,12 +4,22 @@ import * as path from "path";
 
 const CATALOG_PATH = path.join(process.cwd(), "src", "data", "catalog.json");
 
-async function readCatalog() {
+interface Series {
+  id: string;
+  slug: string;
+  title: string;
+  episodes?: { number: number; title?: string; duration?: string; videoUrl?: string }[];
+  videoUrl?: string;
+  videoSources?: { m3u8: string[]; mp4: string[]; other: string[] };
+  [key: string]: unknown;
+}
+
+async function readCatalog(): Promise<Series[]> {
   const data = await fs.readFile(CATALOG_PATH, "utf-8");
   return JSON.parse(data);
 }
 
-async function writeCatalog(data: any[]) {
+async function writeCatalog(data: Series[]) {
   await fs.writeFile(CATALOG_PATH, JSON.stringify(data, null, 2), "utf-8");
 }
 
@@ -33,8 +43,12 @@ async function extractFromVidaraa(embedUrl: string) {
     // Also look for video sources in script tags
     const sourceMatches = html.match(/(?:source|src|file)["\s:=]+(["'])(https?:\/\/[^"'\s]+\.(?:m3u8|mp4|m4s))["']/gi) || [];
 
+    const extractedFromSource = sourceMatches
+      .map(m => m.match(/https?:\/\/[^"'\s]+/)?.[0])
+      .filter((v): v is string => Boolean(v));
+
     const sources = {
-      m3u8: [...new Set([...m3u8Matches, ...sourceMatches.map(m => m.match(/https?:\/\/[^"'\s]+/)?.[0]).filter(Boolean)])],
+      m3u8: [...new Set([...m3u8Matches, ...extractedFromSource])],
       mp4: [...new Set([...mp4Matches])],
       other: [],
     };

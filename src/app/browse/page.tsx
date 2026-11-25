@@ -13,6 +13,7 @@ type SearchParams = {
   genre?: string;
   audio?: string;
   sort?: string;
+  page?: string;
 };
 
 export async function generateMetadata({
@@ -78,7 +79,7 @@ export default async function BrowsePage({
   const sort = params.sort === "views" ? "views" : "new";
   const page = Math.max(1, Number(params.page) || 1);
   const limit = 50;
-  const current = { q, genre, audio, sort: sort === "views" ? "views" : "", page };
+  const current = { q, genre, audio, sort: sort === "views" ? "views" : "", page: String(page) };
   const { items, total, totalPages } = queryCatalog({ q, genre, audio, sort, page, limit });
 
   const title = q
@@ -180,7 +181,7 @@ export default async function BrowsePage({
             <nav className="mt-6 flex items-center justify-center gap-2" aria-label="صفحات">
               {page > 1 && (
                 <Link
-                  href={browseHref(current, { page: page - 1 })}
+                  href={browseHref(current, { page: String(page - 1) })}
                   className={buttonVariants({ variant: "outline", className: "h-10 px-4" })}
                 >
                   <ChevronRight className="size-4" />
@@ -192,7 +193,7 @@ export default async function BrowsePage({
               </span>
               {page < totalPages && (
                 <Link
-                  href={browseHref(current, { page: page + 1 })}
+                  href={browseHref(current, { page: String(page + 1) })}
                   className={buttonVariants({ variant: "outline", className: "h-10 px-4" })}
                 >
                   التالي

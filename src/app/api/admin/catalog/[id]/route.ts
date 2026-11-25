@@ -5,12 +5,19 @@ import * as path from "path";
 
 const CATALOG_PATH = path.join(process.cwd(), "src", "data", "catalog.json");
 
-async function readCatalog() {
+interface Series {
+  id: string;
+  slug: string;
+  title: string;
+  [key: string]: unknown;
+}
+
+async function readCatalog(): Promise<Series[]> {
   const data = await fs.readFile(CATALOG_PATH, "utf-8");
   return JSON.parse(data);
 }
 
-async function writeCatalog(data: any[]) {
+async function writeCatalog(data: Series[]) {
   await fs.writeFile(CATALOG_PATH, JSON.stringify(data, null, 2), "utf-8");
 }
 

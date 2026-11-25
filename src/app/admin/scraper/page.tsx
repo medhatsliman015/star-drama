@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { Loader2, Play, CheckCircle, XCircle, Trash2, Download, RefreshCw } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Loader2, Play, CheckCircle, XCircle, Trash2, Download, RefreshCw, ExternalLink } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "cn";
@@ -15,6 +15,7 @@ type ScrapeJob = {
   seriesTitle?: string;
   sources?: { m3u8: string[]; mp4: string[] };
   error?: string;
+  embedUrl?: string;
 };
 
 const JOBS_KEY = "scrape_jobs";

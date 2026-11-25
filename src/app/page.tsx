@@ -14,9 +14,9 @@ import { siteConfig } from "@/lib/site";
 export default function HomePage() {
   const featured = getFeatured();
   const latest = getAllSeries();
-  const translated = queryCatalog({ audio: "مترجم" });
-  const dubbed = queryCatalog({ audio: "مدبلج" });
-  const popular = queryCatalog({ sort: "views" }).slice(0, 12);
+  const translated = queryCatalog({ audio: "مترجم" }).items;
+  const dubbed = queryCatalog({ audio: "مدبلج" }).items;
+  const popular = queryCatalog({ sort: "views" }).items.slice(0, 12);
   const genres = getGenreCounts();
 
   return (
