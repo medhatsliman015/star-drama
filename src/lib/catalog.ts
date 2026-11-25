@@ -64,6 +64,8 @@ export type CatalogQuery = {
   genre?: string;
   audio?: string;
   sort?: string;
+  page?: number;
+  limit?: number;
 };
 
 function asRecord(value: unknown): Record<string, unknown> | null {
@@ -199,7 +201,7 @@ function normalize(value: string): string {
     .replace(/\s+/g, " ");
 }
 
-export function queryCatalog({ q, genre, audio, sort }: CatalogQuery): Series[] {
+export function queryCatalog({ q, genre, audio, sort, page = 1, limit = 50 }: CatalogQuery): { items: Series[]; total: number; totalPages: number } {
   let items = [...seriesList];
   const query = q ? normalize(q) : "";
 
@@ -226,7 +228,12 @@ export function queryCatalog({ q, genre, audio, sort }: CatalogQuery): Series[] 
     items.sort((a, b) => b.addedAt.localeCompare(a.addedAt));
   }
 
-  return items;
+  const total = items.length;
+  const totalPages = Math.ceil(total / limit);
+  const start = (page - 1) * limit;
+  const paginatedItems = items.slice(start, start + limit);
+
+  return { items: paginatedItems, total, totalPages };
 }
 
 export function getGenreCounts(): { name: string; count: number }[] {

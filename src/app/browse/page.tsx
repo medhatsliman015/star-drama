@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Search } from "lucide-react";
+import { Search, ChevronLeft, ChevronRight } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { buttonVariants } from "@/components/ui/button";
 import { CatalogGrid } from "@/components/catalog-grid";
@@ -76,8 +76,10 @@ export default async function BrowsePage({
   const genre = params.genre ?? "";
   const audio = params.audio ?? "";
   const sort = params.sort === "views" ? "views" : "new";
-  const current = { q, genre, audio, sort: sort === "views" ? "views" : "" };
-  const items = queryCatalog({ q, genre, audio, sort });
+  const page = Math.max(1, Number(params.page) || 1);
+  const limit = 50;
+  const current = { q, genre, audio, sort: sort === "views" ? "views" : "", page };
+  const { items, total, totalPages } = queryCatalog({ q, genre, audio, sort, page, limit });
 
   const title = q
     ? `نتائج البحث عن «${q}»`
@@ -172,6 +174,32 @@ export default async function BrowsePage({
                 عرض كل الأعمال
               </Link>
             </div>
+          )}
+
+          {totalPages > 1 && (
+            <nav className="mt-6 flex items-center justify-center gap-2" aria-label="صفحات">
+              {page > 1 && (
+                <Link
+                  href={browseHref(current, { page: page - 1 })}
+                  className={buttonVariants({ variant: "outline", className: "h-10 px-4" })}
+                >
+                  <ChevronRight className="size-4" />
+                  السابق
+                </Link>
+              )}
+              <span className="px-4 text-sm font-bold text-[#e5e5e5]">
+                صفحة {page} من {totalPages} — {total.toLocaleString("ar-EG")} عمل
+              </span>
+              {page < totalPages && (
+                <Link
+                  href={browseHref(current, { page: page + 1 })}
+                  className={buttonVariants({ variant: "outline", className: "h-10 px-4" })}
+                >
+                  التالي
+                  <ChevronLeft className="size-4" />
+                </Link>
+              )}
+            </nav>
           )}
         </div>
       </div>
