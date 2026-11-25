@@ -1,0 +1,39 @@
+/ -> ديبدراما
+/search -> كل المسلسلات
+/search/label/مسلسل -> مسلسلات
+/search/label/صيني -> مسلسلات صينية
+/search/label/مسلسل مدبلج -> مسلسلات مدبلجة
+/search/label/مسلسل مترجم -> مسلسلات مترجمة
+/search/label/فيلم -> أفلام
+/search/label/مسلسل أكشن -> أكشن
+/search/label/مسلسل رومانسي -> رومانسي
+/search/label/مسلسل دراما -> دراما
+/search -> كل المسلسلات
+/search/label/مسلسل -> مسلسلات
+/search/label/صيني -> مسلسلات صينية
+/search/label/مسلسل مدبلج -> مسلسلات مدبلجة
+/search/label/مسلسل مترجم -> مسلسلات مترجمة
+/search/label/فيلم -> أفلام
+/search/label/مسلسل أكشن -> أكشن
+/search/label/مسلسل رومانسي -> رومانسي
+/search/label/مسلسل دراما -> دراما
+https://www.deep-drama.com/p/about.html -> بواسطة ديب دراما
+https://www.deep-drama.com/search/label/%D9%85%D8%B3%D9%84%D8%B3%D9%84 -> مسلسل
+https://www.deep-drama.com/search/label/%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D8%AF%D8%B1%D8%A7%D9%85%D8%A7 -> مسلسل دراما
+https://www.deep-drama.com/search/label/%D9%85%D8%B3%D9%84%D8%B3%D9%84%C2%A0%D9%85%D8%AF%D8%A8%D9%84%D8%AC -> مسلسل مدبلج
+https://www.deep-drama.com/%d9%85%d9%84%d9%83%d8%a9-%d8%a7%d9%84%d9%85%d8%a7%d9%81%d9%8a%d8%a7-%d8%aa%d9%83%d8%aa%d8%b3%d8%ad-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%88%d9%8a%d8%a9-%d9%85/ -> مشاهدة مسلسل المدبلج ملكة المافيا تكتسح المدرسة الثانوية
+https://www.deep-drama.com/%d9%86%d9%87%d8%b6%d8%a9-%d8%a7%d9%84%d8%b6%d8%b9%d9%8a%d9%81-%d8%a8%d9%82%d9%88%d8%a9-%d8%a7%d9%84%d8%b1%d8%b9%d8%af/ -> مشاهدة مسلسل نهضة الضعيف بقوة الرعد مترجم للعربية
+https://www.deep-drama.com/%d8%a7%d9%84%d8%ab%d8%b1%d9%8a-%d8%a7%d9%84%d8%a3%d8%b9%d8%b1%d8%ac-%d9%88%d8%b7%d9%8a%d9%81-%d8%a7%d9%84%d9%88%d9%81%d8%a7%d8%a1/ -> مشاهدة مسلسل الثري الأعرج وطيف الوفاء مترجم للعربية
+https://www.deep-drama.com/%d8%a3%d9%86%d9%83%d8%b1-%d8%ae%d8%b7%d9%88%d8%a8%d8%aa%d9%86%d8%a7-%d9%81%d8%a7%d8%b3%d8%aa%d8%b9%d8%af%d8%aa-%d9%82%d8%b5%d8%b1%d9%8a/ -> مشاهدة مسلسل أنكر خطوبتنا فاستعدت قصري مترجم للعربية
+https://www.deep-drama.com/%d8%a3%d9%84%d9%85%d8%b9-%d9%85%d9%86-%d8%a7%d9%84%d9%86%d8%ac%d9%88%d9%85/ -> مشاهدة مسلسل ألمع من النجوم مترجم للعربية في 74 حلقة
+/ -> ديبدراما
+/search/label/مسلسل -> مسلسلات
+/search/label/صيني -> صيني
+/search/label/مسلسل مدبلج -> مسلسلات مدبلجة
+/search/label/مسلسل مترجم -> مسلسلات مترجمة
+/search/label/فيلم -> أفلام
+/search/label/مسلسل أكشن -> مسلسل أكشن
+/search/label/مسلسل رومانسي -> مسلسل رومانسي
+/search/label/مسلسل دراما -> مسلسل دراما
+/search/label/مسلسل تاريخي -> مسلسل تاريخي
+/search/label/مسلسل فانتازيا -> مسلسل فانتازيا

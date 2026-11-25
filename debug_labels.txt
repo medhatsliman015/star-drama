@@ -1,0 +1,40 @@
+/ -> ديبدراما
+/search -> كل المسلسلات
+/search/label/مسلسل -> مسلسلات
+/search/label/صيني -> مسلسلات صينية
+/search/label/مسلسل مدبلج -> مسلسلات مدبلجة
+/search/label/مسلسل مترجم -> مسلسلات مترجمة
+/search/label/فيلم -> أفلام
+/search/label/مسلسل أكشن -> أكشن
+/search/label/مسلسل رومانسي -> رومانسي
+/search/label/مسلسل دراما -> دراما
+/search -> كل المسلسلات
+/search/label/مسلسل -> مسلسلات
+/search/label/صيني -> مسلسلات صينية
+/search/label/مسلسل مدبلج -> مسلسلات مدبلجة
+/search/label/مسلسل مترجم -> مسلسلات مترجمة
+/search/label/فيلم -> أفلام
+/search/label/مسلسل أكشن -> أكشن
+/search/label/مسلسل رومانسي -> رومانسي
+/search/label/مسلسل دراما -> دراما
+https://www.deep-drama.com/p/about.html -> بواسطة ديب دراما
+https://www.deep-drama.com/search/label/%D8%B5%D9%8A%D9%86%D9%8A -> صيني
+https://www.deep-drama.com/search/label/%D9%85%D8%B3%D9%84%D8%B3%D9%84 -> مسلسل
+https://www.deep-drama.com/search/label/%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D9%85%D8%AA%D8%B1%D8%AC%D9%85 -> مسلسل مترجم
+https://www.deep-drama.com/%d8%b2%d9%88%d8%ac%d9%8a-%d9%8a%d8%af%d9%81%d9%86%d9%86%d9%8a-%d8%ad%d9%8a%d8%a9/ -> مشاهدة مسلسل زوجي يدفنني حية مترجم للعربية
+https://www.deep-drama.com/%d9%85%d9%84%d9%83-%d9%81%d9%8a-%d8%ab%d9%88%d8%a8-%d9%81%d9%82%d9%8a%d8%b1/ -> مشاهدة مسلسل ملك في ثوب فقير مترجم للعربية
+https://www.deep-drama.com/%d8%b2%d9%88%d8%ac%d8%a9-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%a9/ -> مشاهدة مسلسل زوجة الرئيس التنفيذي السرية مترجم
+https://www.deep-drama.com/%d8%a7%d9%84%d9%85%d8%ae%d8%a8%d8%b2-%d8%a7%d9%84%d8%b0%d9%8a-%d9%83%d8%b4%d9%81-%d8%a7%d9%84%d9%85%d8%a4%d8%a7%d9%85%d8%b1%d8%a9/ -> مشاهدة مسلسل المخبز الذي كشف المؤامرة مترجم للعربية
+https://www.deep-drama.com/%d9%85%d9%88%d9%82%d8%b8-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b7%d9%8a%d8%b1-%d9%85%d9%86%d9%82%d8%b0-%d8%a7%d9%84%d8%a3%d8%b1%d8%b6-%d9%81%d9%8a-%d8%a3%d8%b1%d8%a8%d8%b9%d9%8a%d9%86-%d8%ad%d9%84%d9%82/ -> مدبلج موقظ الأساطير منقذ الأرض في أربعين حلقة
+https://www.deep-drama.com/%d9%85%d9%84%d9%83%d8%a9-%d8%a7%d9%84%d9%85%d8%a7%d9%81%d9%8a%d8%a7-%d8%aa%d9%83%d8%aa%d8%b3%d8%ad-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%88%d9%8a%d8%a9-%d9%85/ -> مشاهدة مسلسل المدبلج ملكة المافيا تكتسح المدرسة الثانوية
+/ -> ديبدراما
+/search/label/مسلسل -> مسلسلات
+/search/label/صيني -> صيني
+/search/label/مسلسل مدبلج -> مسلسلات مدبلجة
+/search/label/مسلسل مترجم -> مسلسلات مترجمة
+/search/label/فيلم -> أفلام
+/search/label/مسلسل أكشن -> مسلسل أكشن
+/search/label/مسلسل رومانسي -> مسلسل رومانسي
+/search/label/مسلسل دراما -> مسلسل دراما
+/search/label/مسلسل تاريخي -> مسلسل تاريخي
+/search/label/مسلسل فانتازيا -> مسلسل فانتازيا

@@ -1,0 +1,145 @@
+HREF: /search/label/مسلسل
+  Text: مسلسلات
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: كل المسلسلاتمسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/صيني
+  Text: مسلسلات صينية
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: كل المسلسلاتمسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل مدبلج
+  Text: مسلسلات مدبلجة
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: كل المسلسلاتمسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل مترجم
+  Text: مسلسلات مترجمة
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: كل المسلسلاتمسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/فيلم
+  Text: أفلام
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: كل المسلسلاتمسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل أكشن
+  Text: أكشن
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: كل المسلسلاتمسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل رومانسي
+  Text: رومانسي
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: كل المسلسلاتمسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل دراما
+  Text: دراما
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: كل المسلسلاتمسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل
+  Text: مسلسلات
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: مسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/صيني
+  Text: مسلسلات صينية
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: مسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل مدبلج
+  Text: مسلسلات مدبلجة
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: مسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل مترجم
+  Text: مسلسلات مترجمة
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: مسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/فيلم
+  Text: أفلام
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: مسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل أكشن
+  Text: أكشن
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: مسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل رومانسي
+  Text: رومانسي
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: مسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: /search/label/مسلسل دراما
+  Text: دراما
+  Parent class: ['xr-nav-dropdown-content']
+  Parent text: مسلسلاتمسلسلات صينيةمسلسلات مدبلجةمسلسلات مترجمةأفلامأكشنرومانسيدراما
+
+HREF: https://www.deep-drama.com/search/label/%D8%B5%D9%8A%D9%86%D9%8A
+  Text: صيني
+  Parent class: ['xr-tags']
+  Parent text: صينيمسلسلمسلسل مترجم
+
+HREF: https://www.deep-drama.com/search/label/%D9%85%D8%B3%D9%84%D8%B3%D9%84
+  Text: مسلسل
+  Parent class: ['xr-tags']
+  Parent text: صينيمسلسلمسلسل مترجم
+
+HREF: https://www.deep-drama.com/search/label/%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D9%85%D8%AA%D8%B1%D8%AC%D9%85
+  Text: مسلسل مترجم
+  Parent class: ['xr-tags']
+  Parent text: صينيمسلسلمسلسل مترجم
+
+HREF: /search/label/مسلسل
+  Text: مسلسلات
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسلاتصينيمسلسلات مدبلجةمسلسلات مترجمةأفلام
+
+HREF: /search/label/صيني
+  Text: صيني
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسلاتصينيمسلسلات مدبلجةمسلسلات مترجمةأفلام
+
+HREF: /search/label/مسلسل مدبلج
+  Text: مسلسلات مدبلجة
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسلاتصينيمسلسلات مدبلجةمسلسلات مترجمةأفلام
+
+HREF: /search/label/مسلسل مترجم
+  Text: مسلسلات مترجمة
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسلاتصينيمسلسلات مدبلجةمسلسلات مترجمةأفلام
+
+HREF: /search/label/فيلم
+  Text: أفلام
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسلاتصينيمسلسلات مدبلجةمسلسلات مترجمةأفلام
+
+HREF: /search/label/مسلسل أكشن
+  Text: مسلسل أكشن
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسل أكشنمسلسل رومانسيمسلسل درامامسلسل تاريخيمسلسل فانتازيا
+
+HREF: /search/label/مسلسل رومانسي
+  Text: مسلسل رومانسي
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسل أكشنمسلسل رومانسيمسلسل درامامسلسل تاريخيمسلسل فانتازيا
+
+HREF: /search/label/مسلسل دراما
+  Text: مسلسل دراما
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسل أكشنمسلسل رومانسيمسلسل درامامسلسل تاريخيمسلسل فانتازيا
+
+HREF: /search/label/مسلسل تاريخي
+  Text: مسلسل تاريخي
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسل أكشنمسلسل رومانسيمسلسل درامامسلسل تاريخيمسلسل فانتازيا
+
+HREF: /search/label/مسلسل فانتازيا
+  Text: مسلسل فانتازيا
+  Parent class: ['xr-ft__links']
+  Parent text: مسلسل أكشنمسلسل رومانسيمسلسل درامامسلسل تاريخيمسلسل فانتازيا
+
