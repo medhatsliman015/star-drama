@@ -19,8 +19,12 @@ import {
 
 type Props = { params: Promise<{ slug: string }> };
 
+export const dynamicParams = true;
+
 export function generateStaticParams() {
-  return getAllSeries().map((item) => ({ slug: item.slug }));
+  // Only pre-generate first 100 series at build time
+  // Rest will be generated on-demand via ISR fallback
+  return getAllSeries().slice(0, 100).map((item) => ({ slug: item.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

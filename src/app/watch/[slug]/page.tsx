@@ -12,8 +12,10 @@ type Props = {
   searchParams: Promise<{ ep?: string }>;
 };
 
+export const dynamicParams = true;
+
 export function generateStaticParams() {
-  return getAllSeries().map((item) => ({ slug: item.slug }));
+  return getAllSeries().slice(0, 100).map((item) => ({ slug: item.slug }));
 }
 
 export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
